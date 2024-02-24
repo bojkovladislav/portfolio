@@ -4,8 +4,11 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div className="z-[20] relative flex flex-col gap-16 items-center justify-center mt-32">
-      <h1 className="text-2xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+    <div
+      className="z-[20] relative flex flex-col gap-16 items-center justify-center pt-32"
+      id="projects"
+    >
+      <h1 className="text-2xl sm:text-5xl leading-normal font-bold text-transparent p-2 bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
         My Projects
       </h1>
 

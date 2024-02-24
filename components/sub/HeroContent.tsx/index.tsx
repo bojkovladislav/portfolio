@@ -66,7 +66,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex sm:gap-2 sm:mt-6 text-white w-auto h-auto flex-col sm:flex-row gap-0"
         >
-          <span className="font-bold text-[23px] sm:text-5xl">I'm a</span>
+          <span className="font-bold text-[23px] sm:text-5xl">I&apos;m a</span>
           {isPageReady && (
             <TypingAnimation
               className="text-[23px] sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"

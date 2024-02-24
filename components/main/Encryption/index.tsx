@@ -11,7 +11,7 @@ const cursive = Satisfy({ weight: '400', subsets: ['latin'] });
 
 const Encryption = () => {
   return (
-    <div className="flex relative items-center justify-center min-h-screen w-full h-full overflow-hidden">
+    <div className="flex relative items-center justify-center min-h-screen w-full h-full">
       <div className="absolute top-0 z-[20]">
         <motion.div
           variants={slideInFromTop}

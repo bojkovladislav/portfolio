@@ -12,7 +12,6 @@ interface Props {
   title: string;
   description: string;
   href: string;
-  index: number;
 }
 
 const ProjectCard = ({
@@ -21,7 +20,6 @@ const ProjectCard = ({
   title,
   description,
   href,
-  index,
 }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
   const { ref, inView } = useInView({
@@ -33,8 +31,6 @@ const ProjectCard = ({
     visible: { opacity: 1 },
   };
 
-  const animationDelay = 0.3;
-
   return (
     <motion.div
       ref={ref}
@@ -42,8 +38,7 @@ const ProjectCard = ({
       initial="hidden"
       variants={variants}
       animate={inView ? 'visible' : 'hidden'}
-      custom={index}
-      transition={{ delay: index * animationDelay }}
+      transition={{ delay: 0.3 }}
     >
       <Link href={href} target="_blank">
         <Image

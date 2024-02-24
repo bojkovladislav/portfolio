@@ -31,7 +31,7 @@ const Skills = () => {
       </div>
       <div className="flex flex-col gap-8 relative z-[20]">
         <motion.div
-          className="flex mt-4 gap-5 sm:gap-20 items-center transition-all duration-500 p-5"
+          className="flex mt-4 gap-5 sm:gap-20 items-center p-5"
           style={{ x: x1 }}
         >
           {skills.map(({ width, height, Image, skill_name }) => (
@@ -45,7 +45,7 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          className="flex mt-4 gap-5 sm:gap-20 items-center transition-all p-5 flex-row-reverse"
+          className="flex mt-4 gap-5 sm:gap-20 items-center p-5 flex-row-reverse"
           style={{ x: x2 }}
         >
           {skills.map(({ width, height, Image, skill_name }, i) => (

@@ -11,7 +11,7 @@ const cursive = Satisfy({ weight: '400', subsets: ['latin'] });
 
 const Encryption = () => {
   return (
-    <div className="flex relative items-center justify-center min-h-screen w-full h-full">
+    <div className="flex relative items-center justify-center min-h-screen w-full h-full overflow-hidden">
       <div className="absolute top-0 z-[20]">
         <motion.div
           variants={slideInFromTop}
@@ -52,7 +52,7 @@ const Encryption = () => {
         <Appearance>
           <h1
             className={`${cursive.className} text-2xl font-medium text-center text-slate-300`}
-        >
+          >
             From concept to execution, shaping digital landscapes
           </h1>
         </Appearance>

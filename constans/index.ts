@@ -145,12 +145,22 @@ export const skills = [
 
 export const projects = [
   {
+    title: 'Chat Application',
+    description:
+      'The Chat Application is a versatile messaging platform featuring private rooms, group chats, and robust chat functionality. Users can seamlessly engage in one-on-one conversations, create and manage group chats, and enjoy real-time messaging with features like replying, editing, and emoji support.',
+    previewImage: '/images/chat-application_picture.png',
+    previewGif: '/images/chat-application_gif.gif',
+    previewLink: 'https://chat-application-sable-nine.vercel.app/',
+    linkToSourceCode: 'https://github.com/bojkovladislav/Chat-Application',
+  },
+  {
     title: 'Phone Sphere Catalog',
     description:
       'This visually appealing and fully responsive project is tailored to showcase a diverse range of mobile phones. It provides users with a seamless interface for effortless browsing and efficient search capabilities for different phone models.',
     previewImage: '/images/phone-sphere-catalog_picture.png',
     previewGif: '/images/phone-sphere-catalog_gif.gif',
-    href: 'https://bojkovladislav.github.io/phone-sphere-catalog/',
+    previewLink: 'https://bojkovladislav.github.io/phone-sphere-catalog/',
+    linkToSourceCode: 'https://github.com/bojkovladislav/phone-sphere-catalog',
   },
   {
     title: 'Authentication app',
@@ -158,7 +168,8 @@ export const projects = [
       'Built with React, ensures a secure user experience, connecting seamlessly with a Node.js Express backend. Utilizing refresh and access tokens, the application prioritizes security while providing an intuitive and responsive interface.',
     previewImage: '/images/auth-app_picture.png',
     previewGif: '/images/auth-app_gif.gif',
-    href: 'https://bojkovladislav.github.io/authentication-app/#/',
+    previewLink: 'https://bojkovladislav.github.io/authentication-app/#/',
+    linkToSourceCode: 'https://github.com/bojkovladislav/authentication-app',
   },
   {
     title: 'KateVR',
@@ -166,7 +177,8 @@ export const projects = [
       'A React-based e-commerce layout site dedicated to selling KateVR products. Explore the latest in virtual reality technology for an immersive experience.',
     previewImage: '/images/kateVR_picture.png',
     previewGif: '/images/kateVR_gif.gif',
-    href: 'https://bojkovladislav.github.io/layout_KateVR/',
+    previewLink: 'https://bojkovladislav.github.io/layout_KateVR/',
+    linkToSourceCode: 'https://github.com/bojkovladislav/layout_KateVR',
   },
   {
     title: 'Tick Track',
@@ -174,7 +186,8 @@ export const projects = [
       'This is a robust and user-friendly application designed to help users manage their tasks efficiently.',
     previewImage: '/images/tick-track_picture.png',
     previewGif: '/images/tick-track_gif.gif',
-    href: 'https://bojkovladislav.github.io/tick-track/',
+    previewLink: 'https://bojkovladislav.github.io/tick-track/',
+    linkToSourceCode: 'https://github.com/bojkovladislav/tick-track',
   },
   {
     title: 'Merge Master 2048',
@@ -182,6 +195,7 @@ export const projects = [
       'This is a classic puzzle game that involves sliding numbered tiles on a grid to combine them and reach the tile with the number 2048. Built using the plain JavaScript.',
     previewImage: '/images/merge-master_picture.png',
     previewGif: '/images/merge-master_gif.gif',
-    href: 'https://bojkovladislav.github.io/MergeMaster-2048/',
+    previewLink: 'https://bojkovladislav.github.io/MergeMaster-2048/',
+    linkToSourceCode: 'https://github.com/bojkovladislav/MergeMaster-2048',
   },
 ];

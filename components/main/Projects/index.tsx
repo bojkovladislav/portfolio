@@ -14,14 +14,15 @@ const Projects = () => {
 
       <div className="flex flex-wrap justify-around gap-y-16 px-5">
         {projects.map(
-          ({ title, description, previewImage, previewGif, href }) => (
+          ({ title, description, previewImage, previewGif, previewLink, linkToSourceCode }) => (
             <ProjectCard
               key={title}
               title={title}
               description={description}
               previewImage={previewImage}
               previewGif={previewGif}
-              href={href}
+              previewLink={previewLink}
+              linkToSourceCode={linkToSourceCode}
             />
           )
         )}

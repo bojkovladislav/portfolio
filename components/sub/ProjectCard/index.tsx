@@ -6,20 +6,23 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-interface Props {
-  previewImage: string;
-  previewGif: string;
-  title: string;
-  description: string;
-  href: string;
-}
+type StringProps =
+  | 'previewImage'
+  | 'previewGif'
+  | 'title'
+  | 'description'
+  | 'previewLink'
+  | 'linkToSourceCode';
+
+type Props = Record<StringProps, string>;
 
 const ProjectCard = ({
   previewImage,
   previewGif,
   title,
   description,
-  href,
+  previewLink,
+  linkToSourceCode,
 }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
   const { ref, inView } = useInView({
@@ -40,7 +43,7 @@ const ProjectCard = ({
       animate={inView ? 'visible' : 'hidden'}
       transition={{ delay: 0.3 }}
     >
-      <Link href={href} target="_blank">
+      <Link href={previewLink} target="_blank">
         <Image
           src={isHovered ? previewGif : previewImage}
           alt="Project Image"
@@ -48,17 +51,24 @@ const ProjectCard = ({
           height={1000}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
-          className="transition-all w-full"
+          className="transition-all w-full max-h-[300px]"
           style={{ opacity: isHovered ? '1' : '0.4' }}
         />
       </Link>
       <div className="flex flex-col gap-3 px-5 pb-5 ">
         <Link
-          href={href}
+          href={previewLink}
           target="_blank"
           className="text-white text-xl sm:text-2xl font-bold"
         >
           {title}
+        </Link>
+        <Link
+          href={linkToSourceCode}
+          target="_blank"
+          className="text-white text-base sm:text-lg font-bold underline"
+        >
+          Link to the GitHub repository
         </Link>
         <p className="text-gray-300 text-sm sm:text-md">{description}</p>
       </div>

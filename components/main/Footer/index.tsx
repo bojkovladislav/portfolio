@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className="flex relative z-[20] backdrop-blur-sm justify-between py-5 px-5 sm:px-14 w-full h-full items-center border-t-2 border-[#2A0E61] border-opacity-70 mt-32  bg-[#03001417]">
       <Link
-        href="https://drive.google.com/file/d/1kCuSnvCCWCJAELQcaY1pkks530vi5WqS/view?usp=sharing"
+        href="https://drive.google.com/file/d/1sy6tiPcZG8e7Xp3Tadw01q6H8QTtbGMd/view?usp=sharing"
         target="_blank"
         className="underline font-bold text-[12px] sm:text-lg text-gray-300 hover:text-white transition-all duration-300"
       >

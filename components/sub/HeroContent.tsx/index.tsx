@@ -98,7 +98,7 @@ const HeroContent = () => {
               href={
                 i === 0
                   ? '#projects'
-                  : 'https://drive.google.com/file/d/1sy6tiPcZG8e7Xp3Tadw01q6H8QTtbGMd/view?usp=sharing'
+                  : 'https://drive.google.com/file/d/13K7UkInHyvJj56SayIFkrc41BuC5wB0h/view?usp=sharing'
               }
               redirect={i === 1}
               key={i}

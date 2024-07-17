@@ -1,5 +1,5 @@
 import Socials from '@/components/sub/Socials';
-import { navbar } from '@/constans';
+import { navbar } from '@/constants';
 import Link from 'next/link';
 import React from 'react';
 

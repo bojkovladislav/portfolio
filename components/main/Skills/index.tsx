@@ -1,7 +1,7 @@
 'use client';
 
 import SkillDataProvider from '@/components/sub/SkillDataProvider';
-import { skills } from '@/constans';
+import { skills } from '@/constants';
 import React from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import Appearance from '@/components/animations/AppearanceAnimation';

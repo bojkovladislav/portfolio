@@ -80,9 +80,10 @@ const HeroContent = () => {
         >
           <strong>Hey</strong> 👋 <br /> My name is Vladyslav. I have over 1
           year of experience in Typescript, JavaScript, React, HTML, CSS, UI
-          libraries like Bootstrap, Material UI, Tailwind, and others, Node and
-          Express for the backend, and SQL. During this time, I have a proven
-          track record of building efficient and user-friendly React{' '}
+          libraries like Bootstrap, Material UI, Tailwind, and others. Node,
+          Express and Nest for the backend. Worked with SQL and non-SQL
+          databases. During this time, I have a proven track record of building
+          efficient and user-friendly React{' '}
           <a
             className="underline font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"
             href="#projects"

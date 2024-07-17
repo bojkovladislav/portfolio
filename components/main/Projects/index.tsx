@@ -1,5 +1,5 @@
 import ProjectCard from '@/components/sub/ProjectCard';
-import { projects } from '@/constans';
+import { projects } from '@/constants';
 import React from 'react';
 
 const Projects = () => {
@@ -14,7 +14,14 @@ const Projects = () => {
 
       <div className="flex flex-wrap justify-around gap-y-16 px-5">
         {projects.map(
-          ({ title, description, previewImage, previewGif, previewLink, linkToSourceCode }) => (
+          ({
+            title,
+            description,
+            previewImage,
+            previewGif,
+            previewLink,
+            linkToSourceCode,
+          }) => (
             <ProjectCard
               key={title}
               title={title}
